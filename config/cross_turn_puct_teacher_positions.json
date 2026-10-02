@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "description": "Informative zero-cutoff cross-Turn roots for iterative deep-search teacher regeneration. No preferred action is encoded.",
+  "positions": [
+    {
+      "id": "early-war-ussr-late-ar-tempo",
+      "game_log": "runs/eval/tournament-parent-tuned-selective32-vs-parent-raw-10pairs-node256-20260811/shard-006/game_logs/games-3784559.jsonl",
+      "seed": 82440006,
+      "game_occurrence": 0,
+      "action_index": 72,
+      "side": "ussr",
+      "categories": ["late_ar_pressure", "next_turn_headline_preparation", "card_disposal"]
+    },
+    {
+      "id": "early-war-us-final-ar-card-management",
+      "game_log": "runs/eval/tournament-parent-tuned-selective32-vs-parent-raw-10pairs-node256-20260811/shard-006/game_logs/games-3784559.jsonl",
+      "seed": 82440006,
+      "game_occurrence": 0,
+      "action_index": 78,
+      "side": "us",
+      "categories": ["late_ar_pressure", "held_card_transition", "next_turn_headline_preparation"]
+    },
+    {
+      "id": "late-war-ussr-final-ar-headline-preparation",
+      "game_log": "runs/eval/tournament-parent-tuned-selective32-vs-parent-raw-10pairs-node256-20260811/shard-000/game_logs/games-3758469.jsonl",
+      "seed": 82440000,
+      "game_occurrence": 1,
+      "action_index": 643,
+      "side": "ussr",
+      "categories": ["late_ar_pressure", "headline_preparation", "scoring_horizon"]
+    }
+  ]
+}

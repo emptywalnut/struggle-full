@@ -1,0 +1,247 @@
+{
+  "description": "Balanced high-regret roots selected from paired PUCT games for deeper information-safe teacher regeneration. No preferred action is encoded.",
+  "positions": [
+    {
+      "action_index": 391,
+      "categories": [
+        "low_confidence"
+      ],
+      "game_log": "/mnt2/users/kaile/hantao/game/struggle/runs/deep_puct/tournament-nn0-d4-128-vs-raw-10pairs-gpu4-refinedrng-node8192-workers8-20260811/shard-007/game_logs/games-1219897.jsonl",
+      "game_occurrence": 0,
+      "id": "seed-82645007-candidate_us-step-391",
+      "seed": 82645007,
+      "selection": {
+        "cross_turn_leaf_evaluations": 115,
+        "max_turn_delta": 1,
+        "q_advantage_over_raw": 1.8140004435930246,
+        "root_q_gap": 0.31050159621790474,
+        "source_search_depth": 4,
+        "source_simulations": 128
+      },
+      "side": "us"
+    },
+    {
+      "action_index": 565,
+      "categories": [
+        "opponent_event"
+      ],
+      "game_log": "/mnt2/users/kaile/hantao/game/struggle/runs/deep_puct/tournament-nn0-d4-128-vs-raw-10pairs-gpu4-refinedrng-node8192-workers8-20260811/shard-006/game_logs/games-1219896.jsonl",
+      "game_occurrence": 1,
+      "id": "seed-82645006-candidate_ussr-step-565",
+      "seed": 82645006,
+      "selection": {
+        "cross_turn_leaf_evaluations": 14,
+        "max_turn_delta": 1,
+        "q_advantage_over_raw": 0.2753307801929704,
+        "root_q_gap": 0.2753307801929704,
+        "source_search_depth": 4,
+        "source_simulations": 128
+      },
+      "side": "ussr"
+    },
+    {
+      "action_index": 310,
+      "categories": [
+        "influence_allocation",
+        "low_confidence"
+      ],
+      "game_log": "/mnt2/users/kaile/hantao/game/struggle/runs/deep_puct/tournament-nn0-d4-128-vs-raw-10pairs-gpu4-refinedrng-node8192-workers8-20260811/shard-001/game_logs/games-1219890.jsonl",
+      "game_occurrence": 0,
+      "id": "seed-82645001-candidate_us-step-310",
+      "seed": 82645001,
+      "selection": {
+        "cross_turn_leaf_evaluations": 127,
+        "max_turn_delta": 1,
+        "q_advantage_over_raw": 1.6286282792850466,
+        "root_q_gap": 0.051931570325450815,
+        "source_search_depth": 4,
+        "source_simulations": 128
+      },
+      "side": "us"
+    },
+    {
+      "action_index": 657,
+      "categories": [
+        "influence_allocation"
+      ],
+      "game_log": "/mnt2/users/kaile/hantao/game/struggle/runs/deep_puct/tournament-nn0-d4-128-vs-raw-10pairs-gpu4-refinedrng-node8192-workers8-20260811/shard-006/game_logs/games-1219896.jsonl",
+      "game_occurrence": 1,
+      "id": "seed-82645006-candidate_ussr-step-657",
+      "seed": 82645006,
+      "selection": {
+        "cross_turn_leaf_evaluations": 24,
+        "max_turn_delta": 1,
+        "q_advantage_over_raw": 0.2540819308463854,
+        "root_q_gap": -0.007220677421010013,
+        "source_search_depth": 4,
+        "source_simulations": 128
+      },
+      "side": "ussr"
+    },
+    {
+      "action_index": 76,
+      "categories": [
+        "opponent_event"
+      ],
+      "game_log": "/mnt2/users/kaile/hantao/game/struggle/runs/deep_puct/tournament-nn0-d4-128-vs-raw-10pairs-gpu4-refinedrng-node8192-workers8-20260811/shard-008/game_logs/games-1468056.jsonl",
+      "game_occurrence": 0,
+      "id": "seed-82645008-candidate_us-step-76",
+      "seed": 82645008,
+      "selection": {
+        "cross_turn_leaf_evaluations": 70,
+        "max_turn_delta": 1,
+        "q_advantage_over_raw": 0.6601687327469313,
+        "root_q_gap": 0.6601687327469313,
+        "source_search_depth": 4,
+        "source_simulations": 128
+      },
+      "side": "us"
+    },
+    {
+      "action_index": 307,
+      "categories": [
+        "opponent_event"
+      ],
+      "game_log": "/mnt2/users/kaile/hantao/game/struggle/runs/deep_puct/tournament-nn0-d4-128-vs-raw-10pairs-gpu4-refinedrng-node8192-workers8-20260811/shard-006/game_logs/games-1219896.jsonl",
+      "game_occurrence": 1,
+      "id": "seed-82645006-candidate_ussr-step-307",
+      "seed": 82645006,
+      "selection": {
+        "cross_turn_leaf_evaluations": 2,
+        "max_turn_delta": 1,
+        "q_advantage_over_raw": 0.18582104453986026,
+        "root_q_gap": 0.18582104453986026,
+        "source_search_depth": 4,
+        "source_simulations": 128
+      },
+      "side": "ussr"
+    },
+    {
+      "action_index": 763,
+      "categories": [
+        "influence_allocation"
+      ],
+      "game_log": "/mnt2/users/kaile/hantao/game/struggle/runs/deep_puct/tournament-nn0-d4-128-vs-raw-10pairs-gpu4-refinedrng-node8192-workers8-20260811/shard-006/game_logs/games-1219896.jsonl",
+      "game_occurrence": 0,
+      "id": "seed-82645006-candidate_us-step-763",
+      "seed": 82645006,
+      "selection": {
+        "cross_turn_leaf_evaluations": 0,
+        "max_turn_delta": 0,
+        "q_advantage_over_raw": 2.0,
+        "root_q_gap": 0.0,
+        "source_search_depth": 1,
+        "source_simulations": 128
+      },
+      "side": "us"
+    },
+    {
+      "action_index": 114,
+      "categories": [
+        "scoring_card"
+      ],
+      "game_log": "/mnt2/users/kaile/hantao/game/struggle/runs/deep_puct/tournament-nn0-d4-128-vs-raw-10pairs-gpu4-refinedrng-node8192-workers8-20260811/shard-006/game_logs/games-1219896.jsonl",
+      "game_occurrence": 1,
+      "id": "seed-82645006-candidate_ussr-step-114",
+      "seed": 82645006,
+      "selection": {
+        "cross_turn_leaf_evaluations": 0,
+        "max_turn_delta": 0,
+        "q_advantage_over_raw": 1.2178023043979391,
+        "root_q_gap": 1.2178023043979391,
+        "source_search_depth": 4,
+        "source_simulations": 128
+      },
+      "side": "ussr"
+    },
+    {
+      "action_index": 673,
+      "categories": [
+        "opponent_event"
+      ],
+      "game_log": "/mnt2/users/kaile/hantao/game/struggle/runs/deep_puct/tournament-nn0-d4-128-vs-raw-10pairs-gpu4-refinedrng-node8192-workers8-20260811/shard-009/game_logs/games-1511711.jsonl",
+      "game_occurrence": 0,
+      "id": "seed-82645009-candidate_us-step-673",
+      "seed": 82645009,
+      "selection": {
+        "cross_turn_leaf_evaluations": 0,
+        "max_turn_delta": 0,
+        "q_advantage_over_raw": 1.3097236238641201,
+        "root_q_gap": 0.07684396659451787,
+        "source_search_depth": 4,
+        "source_simulations": 128
+      },
+      "side": "us"
+    },
+    {
+      "action_index": 91,
+      "categories": [
+        "scoring_card"
+      ],
+      "game_log": "/mnt2/users/kaile/hantao/game/struggle/runs/deep_puct/tournament-nn0-d4-128-vs-raw-10pairs-gpu4-refinedrng-node8192-workers8-20260811/shard-008/game_logs/games-1468056.jsonl",
+      "game_occurrence": 1,
+      "id": "seed-82645008-candidate_ussr-step-91",
+      "seed": 82645008,
+      "selection": {
+        "cross_turn_leaf_evaluations": 0,
+        "max_turn_delta": 0,
+        "q_advantage_over_raw": 0.9292432480567957,
+        "root_q_gap": -0.016311206044228532,
+        "source_search_depth": 4,
+        "source_simulations": 128
+      },
+      "side": "ussr"
+    },
+    {
+      "action_index": 21,
+      "categories": [
+        "low_confidence",
+        "scoring_card"
+      ],
+      "game_log": "/mnt2/users/kaile/hantao/game/struggle/runs/deep_puct/tournament-nn0-d4-128-vs-raw-10pairs-gpu4-refinedrng-node8192-workers8-20260811/shard-002/game_logs/games-1219892.jsonl",
+      "game_occurrence": 0,
+      "id": "seed-82645002-candidate_us-step-21",
+      "seed": 82645002,
+      "selection": {
+        "cross_turn_leaf_evaluations": 0,
+        "max_turn_delta": 0,
+        "q_advantage_over_raw": 1.1367159431054334,
+        "root_q_gap": 1.1367159431054334,
+        "source_search_depth": 4,
+        "source_simulations": 128
+      },
+      "side": "us"
+    },
+    {
+      "action_index": 89,
+      "categories": [
+        "scoring_card"
+      ],
+      "game_log": "/mnt2/users/kaile/hantao/game/struggle/runs/deep_puct/tournament-nn0-d4-128-vs-raw-10pairs-gpu4-refinedrng-node8192-workers8-20260811/shard-005/game_logs/games-1219895.jsonl",
+      "game_occurrence": 1,
+      "id": "seed-82645005-candidate_ussr-step-89",
+      "seed": 82645005,
+      "selection": {
+        "cross_turn_leaf_evaluations": 0,
+        "max_turn_delta": 0,
+        "q_advantage_over_raw": 0.8733206958291053,
+        "root_q_gap": 0.04427605695016107,
+        "source_search_depth": 4,
+        "source_simulations": 128
+      },
+      "side": "ussr"
+    }
+  ],
+  "selection": {
+    "available_positions": 348,
+    "min_q_advantage": 0.03,
+    "require_cross_turn": false,
+    "require_flip": true,
+    "selected_cross_turn": 6,
+    "selected_positions": 12,
+    "selected_us": 6,
+    "selected_ussr": 6
+  },
+  "source_tournament": "/mnt2/users/kaile/hantao/game/struggle/runs/deep_puct/tournament-nn0-d4-128-vs-raw-10pairs-gpu4-refinedrng-node8192-workers8-20260811",
+  "version": 1
+}

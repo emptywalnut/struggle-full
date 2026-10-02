@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "description": "Replayable cross-Turn PUCT roots. Diagnostic categories describe what to measure, not a preferred action.",
+  "positions": [
+    {
+      "id": "early-war-ussr-late-ar-tempo",
+      "game_log": "runs/eval/tournament-parent-tuned-selective32-vs-parent-raw-10pairs-node256-20260811/shard-006/game_logs/games-3784559.jsonl",
+      "seed": 82440006,
+      "game_occurrence": 0,
+      "action_index": 72,
+      "side": "ussr",
+      "categories": ["late_ar_pressure", "next_turn_headline_preparation", "card_disposal"]
+    },
+    {
+      "id": "early-war-us-final-ar-card-management",
+      "game_log": "runs/eval/tournament-parent-tuned-selective32-vs-parent-raw-10pairs-node256-20260811/shard-006/game_logs/games-3784559.jsonl",
+      "seed": 82440006,
+      "game_occurrence": 0,
+      "action_index": 78,
+      "side": "us",
+      "categories": ["late_ar_pressure", "held_card_transition", "next_turn_headline_preparation"]
+    },
+    {
+      "id": "late-war-us-extra-ar-defcon-tempo",
+      "game_log": "runs/eval/tournament-parent-tuned-selective32-vs-parent-raw-10pairs-node256-20260811/shard-007/game_logs/games-3801169.jsonl",
+      "seed": 82440007,
+      "game_occurrence": 1,
+      "action_index": 619,
+      "side": "us",
+      "categories": ["defcon_tempo", "late_ar_pressure", "next_turn_transition"]
+    },
+    {
+      "id": "late-war-ussr-final-ar-headline-preparation",
+      "game_log": "runs/eval/tournament-parent-tuned-selective32-vs-parent-raw-10pairs-node256-20260811/shard-000/game_logs/games-3758469.jsonl",
+      "seed": 82440000,
+      "game_occurrence": 1,
+      "action_index": 643,
+      "side": "ussr",
+      "categories": ["late_ar_pressure", "headline_preparation", "scoring_horizon"]
+    },
+    {
+      "id": "mid-war-forced-scoring-negative-control",
+      "game_log": "runs/eval/tournament-parent-tuned-selective32-vs-parent-raw-10pairs-node256-20260811/shard-008/game_logs/games-3820161.jsonl",
+      "seed": 82440008,
+      "game_occurrence": 1,
+      "action_index": 413,
+      "side": "ussr",
+      "categories": ["forced_scoring", "single_action_negative_control"]
+    },
+    {
+      "id": "turn-ten-terminal-negative-control",
+      "game_log": "runs/eval/tournament-parent-tuned-selective32-vs-parent-raw-10pairs-node256-20260811/shard-003/game_logs/games-3758472.jsonl",
+      "seed": 82440003,
+      "game_occurrence": 1,
+      "action_index": 714,
+      "side": "us",
+      "categories": ["final_scoring", "terminal_value", "depth_saturation_negative_control"]
+    }
+  ]
+}

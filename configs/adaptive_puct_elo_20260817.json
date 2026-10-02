@@ -1,0 +1,97 @@
+{
+  "description": "Adaptive common-anchor Elo screen for current and historical PUCT backbones.",
+  "agents": [
+    {
+      "label": "accepted-parent",
+      "checkpoint": "runs/puct_selfplay/cycle0-student-balanced2games-100updates-gpu4-20260812/checkpoints/distilled",
+      "modes": ["d2", "d4"],
+      "note": "Current accepted parent; raw mode is the fixed 1500 Elo anchor."
+    },
+    {
+      "label": "nn0-selective-distilled",
+      "checkpoint": "runs/distill/selective-puct-highq003-actionhead-anchor1-100updates-20260811/checkpoints/distilled",
+      "modes": ["raw", "d2", "d4"],
+      "note": "Historically strong tuned-selective and D4 backbone; direct ancestor of accepted parent."
+    },
+    {
+      "label": "pre-campaign-policyvalueheads",
+      "checkpoint": "runs/puct_selfplay/joint-cycle1-student-policyvalueheads-equal-200updates-gpu4-20260813/checkpoints/distilled",
+      "modes": ["raw", "d2", "d4"],
+      "note": "Best 20-game pre-campaign raw point estimate; fully screened with both search depths."
+    },
+    {
+      "label": "cycle2-ppo-final",
+      "checkpoint": "runs/puct_campaign/multiday-d2-ppo-gpu45-20260813-145350/cycles/cycle-0002/ppo_stabilization/checkpoints/final",
+      "modes": ["raw", "d2", "d4"],
+      "note": "Best 20-game raw result in the multi-day campaign; fully screened with both search depths."
+    },
+    {
+      "label": "cycle4-ppo-final",
+      "checkpoint": "runs/puct_campaign/multiday-d2-ppo-gpu45-20260813-145350/cycles/cycle-0004/ppo_stabilization/checkpoints/final",
+      "modes": ["raw", "d2", "d4"],
+      "note": "Historical 8-game D2 score 75%; underpowered and requires rescreening."
+    },
+    {
+      "label": "cycle4-u200",
+      "checkpoint": "runs/puct_campaign/multiday-d2-ppo-gpu45-20260813-145350/cycles/cycle-0004/search_student/checkpoints/distilled",
+      "modes": ["raw", "d2", "d4"],
+      "note": "Cycle 4 selected working checkpoint before PPO stabilization; fully screened with both search depths."
+    },
+    {
+      "label": "cycle5-u050",
+      "checkpoint": "runs/puct_campaign/multiday-d2-ppo-gpu45-20260813-145350/cycles/cycle-0005/search_student/checkpoints/updates-000050",
+      "modes": ["raw", "d2", "d4"],
+      "note": "Historical 8-game D2 score 75%; fully screened with both search depths."
+    },
+    {
+      "label": "cycle5-ppo-final",
+      "checkpoint": "runs/puct_campaign/multiday-d2-ppo-gpu45-20260813-145350/cycles/cycle-0005/ppo_stabilization/checkpoints/final",
+      "modes": ["raw", "d2", "d4"],
+      "note": "Best 20-game campaign D2 result: 65%, US 70%, USSR 60%."
+    }
+  ],
+  "historical_results": [
+    {
+      "agent": "cycle4-ppo-final/d2-symmetric",
+      "games": 8,
+      "score": 0.75,
+      "elo_delta": 190.8485,
+      "status": "preliminary"
+    },
+    {
+      "agent": "cycle5-u050/d2-symmetric",
+      "games": 8,
+      "score": 0.75,
+      "elo_delta": 190.8485,
+      "status": "preliminary"
+    },
+    {
+      "agent": "cycle5-ppo-final/d2-symmetric",
+      "games": 20,
+      "score": 0.65,
+      "elo_delta": 107.5381,
+      "status": "preliminary"
+    },
+    {
+      "agent": "cycle2-ppo-final/raw",
+      "games": 20,
+      "score": 0.60,
+      "elo_delta": 70.4365,
+      "status": "preliminary"
+    },
+    {
+      "agent": "nn0-selective-distilled/d4-128",
+      "games": 20,
+      "score": 0.75,
+      "elo_delta": 190.8485,
+      "status": "historical-confirmatory"
+    },
+    {
+      "agent": "nn0-selective-distilled/tuned-selective32",
+      "games": 34,
+      "score": 0.6765,
+      "elo_delta": 128.13,
+      "status": "historical-confirmatory"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "struggle-ai-bridge",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "Headless Saito bridge for the Twilight Struggle PPO environment.",
+  "scripts": {
+    "bridge": "node bridge/saito_bridge.js",
+    "browser": "node browser/server.js",
+    "build": "node scripts/build_browser.js",
+    "smoke": "node bridge/saito_bridge.js --self-test",
+    "test:frontend": "node --test tests_browser/ui_core.test.js tests_browser/board_layout.test.js tests_browser/server_unit.test.js tests_browser/bridge_rules.test.js",
+    "test:e2e": "node --test tests_browser/e2e_smoke.test.js",
+    "test:browser": "npm run test:frontend && npm run test:e2e",
+    "validate:browser-full-game": "node scripts/validate_browser_full_game.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "json-bigint": "^1.0.0"
+  }
+}

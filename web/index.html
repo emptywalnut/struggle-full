@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Private browser frontend for the Saito-backed Twilight Struggle rules engine.">
+    <title>Twilight Struggle · Saito Rules Frontend</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand-block">
+          <span class="brand-kicker">1945 — 1989</span>
+          <h1>Twilight Struggle</h1>
+          <span class="engine-badge">Saito rules engine</span>
+        </div>
+        <div class="topbar-actions">
+          <span id="connection-status" class="connection-pill" aria-live="polite">Ready</span>
+          <button id="new-game-button" class="button ghost" type="button" hidden>New game</button>
+        </div>
+      </header>
+
+      <main id="game-root" class="game-root" hidden>
+        <section id="status-ribbon" class="status-ribbon" aria-label="Game status"></section>
+
+        <section class="decision-banner" aria-live="polite">
+          <div class="decision-copy">
+            <span id="decision-eyebrow" class="eyebrow"></span>
+            <h2 id="decision-prompt">Waiting for game state…</h2>
+          </div>
+          <div id="ai-progress" class="ai-progress"></div>
+          <div id="decision-actions" class="decision-actions" aria-label="Current card use choices" hidden></div>
+        </section>
+
+        <div class="game-layout">
+          <section class="board-column">
+            <div class="board-toolbar">
+              <div class="toolbar-group">
+                <button id="zoom-out" class="icon-button" type="button" aria-label="Zoom map out">−</button>
+                <button id="zoom-fit" class="button compact" type="button">Fit</button>
+                <button id="zoom-in" class="icon-button" type="button" aria-label="Zoom map in">+</button>
+                <span id="zoom-readout" class="zoom-readout">100%</span>
+              </div>
+              <div class="map-legend" aria-label="Map legend">
+                <span><i class="legend-swatch legal"></i> Legal target</span>
+                <span><i class="legend-swatch us"></i> US</span>
+                <span><i class="legend-swatch ussr"></i> USSR</span>
+                <span><i class="legend-swatch bg"></i> Battleground</span>
+              </div>
+            </div>
+            <div id="board-viewport" class="board-viewport" tabindex="0" aria-label="Interactive Twilight Struggle world board">
+              <div id="board-scale" class="board-scale">
+                <div id="game-board" class="game-board" role="group" aria-label="Country map"></div>
+              </div>
+            </div>
+            <div id="region-summary" class="region-summary"></div>
+            <section id="hand-panel" class="hand-panel" aria-label="Cards"></section>
+          </section>
+
+          <aside class="side-panel">
+            <section id="ai-controls" class="control-card" hidden></section>
+            <nav class="panel-tabs" aria-label="Information panels">
+              <button class="tab active" data-tab="actions" type="button">Actions</button>
+              <button class="tab" data-tab="history" type="button">History</button>
+              <button class="tab" data-tab="log" type="button">Log</button>
+              <button class="tab" data-tab="effects" type="button">Effects</button>
+            </nav>
+            <div id="panel-actions" class="panel-view active"></div>
+            <div id="panel-history" class="panel-view"></div>
+            <div id="panel-log" class="panel-view"></div>
+            <div id="panel-effects" class="panel-view"></div>
+          </aside>
+        </div>
+      </main>
+
+      <footer class="site-footer">
+        <span>Private, non-commercial development frontend.</span>
+        <span>Board © GMT Games/original artists, supplied through the Saito module.</span>
+        <a href="https://www.gmtgames.com/t-GMTVASSAL.aspx" target="_blank" rel="noreferrer">GMT module terms</a>
+      </footer>
+    </div>
+
+    <div id="setup-overlay" class="setup-overlay">
+      <form id="setup-form" class="setup-card">
+        <div class="setup-heading">
+          <span class="brand-kicker">THE WORLD AWAITS</span>
+          <h2>Begin a new struggle</h2>
+          <p>Play against scripted baselines or validated trained checkpoints from this repository.</p>
+        </div>
+
+        <div class="setup-grid">
+          <label>
+            Match
+            <select id="mode-input" name="mode">
+              <option value="human-ai">Human vs AI</option>
+              <option value="ai-ai">AI vs AI</option>
+            </select>
+          </label>
+          <label id="human-side-field">
+            Your side
+            <select name="human_side">
+              <option value="us">United States</option>
+              <option value="ussr">Soviet Union</option>
+            </select>
+          </label>
+          <label>
+            US policy
+            <select id="us-policy" name="us_policy" disabled>
+              <option>Loading registered policies…</option>
+            </select>
+            <small id="us-policy-meta" class="policy-meta">Inspecting checkpoint registry…</small>
+          </label>
+          <label>
+            USSR policy
+            <select id="ussr-policy" name="ussr_policy" disabled>
+              <option>Loading registered policies…</option>
+            </select>
+            <small id="ussr-policy-meta" class="policy-meta">Inspecting checkpoint registry…</small>
+          </label>
+          <label>
+            Seed
+            <input name="seed" type="number" min="1" max="2147483647" value="1">
+          </label>
+        </div>
+
+        <div id="model-registry-status" class="model-registry-status" role="status" aria-live="polite">Loading the server-side model registry…</div>
+
+        <label class="license-confirmation">
+          <input name="ownership" type="checkbox" required>
+          <span>I confirm this is personal, non-commercial use and at least one participant owns a copy of Twilight Struggle, as required by the supplied GMT/Saito module assets.</span>
+        </label>
+
+        <div id="setup-error" class="form-error" role="alert"></div>
+        <button id="start-button" class="button primary large" type="submit" disabled>Start game</button>
+        <p class="asset-source">Using the Saito board and the engine’s exact coordinates and rule data. No proprietary Steam artwork is included.</p>
+      </form>
+    </div>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script type="module" src="/app.mjs"></script>
+  </body>
+</html>

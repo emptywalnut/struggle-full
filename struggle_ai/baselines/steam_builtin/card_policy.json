@@ -1,0 +1,1101 @@
+{
+  "cards": {
+    "ABM Treaty": {
+      "common": {
+        "headline": 7
+      },
+      "source": "twilight_cards.lua",
+      "usa": {},
+      "ussr": {}
+    },
+    "AWACS Sale to Saudis": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 7
+      },
+      "ussr": {
+        "resolve_opponent_event_first": true
+      }
+    },
+    "Aldrich Ames Remix": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "play_after_action_round": 4,
+        "resolve_opponent_event_first": true
+      },
+      "ussr": {
+        "headline": 9,
+        "play_event_before_action_round": 2
+      }
+    },
+    "Allende": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "resolve_opponent_event_last": true
+      },
+      "ussr": {
+        "headline": 7
+      }
+    },
+    "Alliance for Progress": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 8
+      },
+      "ussr": {
+        "resolve_opponent_event_last": true
+      }
+    },
+    "An Evil Empire": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 6
+      },
+      "ussr": {
+        "resolve_opponent_event_last": true
+      }
+    },
+    "Arab-Israeli War": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {},
+      "ussr": {}
+    },
+    "Arms Race": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {},
+      "ussr": {}
+    },
+    "Ask Not What Your Country Can Do For You...": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 8,
+        "play_event_before_action_round": 2
+      },
+      "ussr": {
+        "do_not_predict_headline": true,
+        "play_after_action_round": 6,
+        "resolve_opponent_event_first": true
+      }
+    },
+    "Bear Trap": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 8
+      },
+      "ussr": {
+        "resolve_opponent_event_last": true
+      }
+    },
+    "Berlin Wall": {
+      "common": {},
+      "source": "twilight_promos.lua",
+      "usa": {
+        "resolve_opponent_event_first": true
+      },
+      "ussr": {
+        "headline": 5
+      }
+    },
+    "Blockade": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "resolve_opponent_event_first": true
+      },
+      "ussr": {
+        "headline": 6
+      }
+    },
+    "Brezhnev Doctrine": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "play_after_action_round": 5,
+        "resolve_opponent_event_last": true
+      },
+      "ussr": {
+        "headline": 10,
+        "play_event_before_action_round": 1
+      }
+    },
+    "Brush War": {
+      "common": {
+        "headline": 10
+      },
+      "source": "twilight_cards.lua",
+      "usa": {},
+      "ussr": {}
+    },
+    "CIA Created": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 6
+      },
+      "ussr": {
+        "defcon_ops": true,
+        "resolve_opponent_event_first": true
+      }
+    },
+    "COMECON": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "resolve_opponent_event_last": true
+      },
+      "ussr": {
+        "headline": 8
+      }
+    },
+    "Camp David Accords": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 7
+      },
+      "ussr": {
+        "resolve_opponent_event_first": true
+      }
+    },
+    "Captured Nazi Scientist": {
+      "common": {
+        "headline": 5
+      },
+      "source": "twilight_cards.lua",
+      "usa": {},
+      "ussr": {}
+    },
+    "Che": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "resolve_opponent_event_first": true
+      },
+      "ussr": {
+        "headline": 9
+      }
+    },
+    "Chernobyl": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 7,
+        "play_event_before_action_round": 2
+      },
+      "ussr": {
+        "do_not_predict_headline": true,
+        "play_after_action_round": 5,
+        "resolve_opponent_event_last": true
+      }
+    },
+    "Colonial Rear Guards": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 8
+      },
+      "ussr": {
+        "resolve_opponent_event_first": true
+      }
+    },
+    "Containment": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 9,
+        "play_event_before_action_round": 1
+      },
+      "ussr": {
+        "play_after_action_round": 5,
+        "resolve_opponent_event_last": true
+      }
+    },
+    "Cuban Missile Crisis": {
+      "common": {
+        "do_not_predict_headline": true,
+        "headline": 8,
+        "play_event_before_action_round": 1
+      },
+      "source": "twilight_cards.lua",
+      "usa": {},
+      "ussr": {}
+    },
+    "Cultural Revolution": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "resolve_opponent_event_last": true
+      },
+      "ussr": {
+        "headline": 6
+      }
+    },
+    "De Gaulle Leads France": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "resolve_opponent_event_first": true
+      },
+      "ussr": {
+        "headline": 6
+      }
+    },
+    "De-Stalinization": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "do_not_predict_headline": true,
+        "resolve_opponent_event_first": true
+      },
+      "ussr": {
+        "headline": 8
+      }
+    },
+    "Decolonization": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "resolve_opponent_event_first": true
+      },
+      "ussr": {
+        "headline": 9
+      }
+    },
+    "Defectors": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 9,
+        "play_event_before_action_round": 0
+      },
+      "ussr": {
+        "resolve_opponent_event_last": true
+      }
+    },
+    "Don't Wait for the Translation": {
+      "common": {},
+      "source": "twilight_promos.lua",
+      "usa": {
+        "headline": 1
+      },
+      "ussr": {
+        "resolve_opponent_event_first": true
+      }
+    },
+    "Duck and Cover": {
+      "common": {
+        "defcon_drop": true
+      },
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 5
+      },
+      "ussr": {}
+    },
+    "East European Unrest": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 7
+      },
+      "ussr": {
+        "resolve_opponent_event_first": true
+      }
+    },
+    "Fidel": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "resolve_opponent_event_first": true
+      },
+      "ussr": {
+        "headline": 5
+      }
+    },
+    "First Lightning": {
+      "common": {},
+      "source": "twilight_promos.lua",
+      "usa": {},
+      "ussr": {}
+    },
+    "Five-Year Plan": {
+      "common": {
+        "defcon_draw": true
+      },
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 7
+      },
+      "ussr": {
+        "resolve_opponent_event_first": true
+      }
+    },
+    "Flower Power": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "resolve_opponent_event_last": true
+      },
+      "ussr": {
+        "headline": 4
+      }
+    },
+    "Formosan Resolution": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 4
+      },
+      "ussr": {
+        "resolve_opponent_event_last": true
+      }
+    },
+    "Glasnost": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "resolve_opponent_event_first": true
+      },
+      "ussr": {
+        "headline": 9
+      }
+    },
+    "Grain Sales to Soviets": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 10
+      },
+      "ussr": {
+        "defcon_ops": true,
+        "resolve_opponent_event_first": true
+      }
+    },
+    "How I Learned to Stop Worrying": {
+      "common": {
+        "headline": 4
+      },
+      "source": "twilight_cards.lua",
+      "usa": {},
+      "ussr": {}
+    },
+    "Independent Reds": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 6
+      },
+      "ussr": {
+        "resolve_opponent_event_first": true
+      }
+    },
+    "Indo-Pakistani War": {
+      "common": {
+        "headline": 7
+      },
+      "source": "twilight_cards.lua",
+      "usa": {},
+      "ussr": {}
+    },
+    "Iran-Contra Scandal": {
+      "common": {
+        "headline": 4
+      },
+      "source": "twilight_cards.lua",
+      "usa": {
+        "play_after_action_round": 3,
+        "resolve_opponent_event_last": true
+      },
+      "ussr": {
+        "play_event_before_action_round": 0
+      }
+    },
+    "Iran-Iraq War": {
+      "common": {
+        "headline": 7
+      },
+      "source": "twilight_cards.lua",
+      "usa": {},
+      "ussr": {}
+    },
+    "Iranian Hostage Crisis": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "resolve_opponent_event_last": true
+      },
+      "ussr": {
+        "headline": 7
+      }
+    },
+    "John Paul II Elected Pope": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 8
+      },
+      "ussr": {
+        "resolve_opponent_event_first": true
+      }
+    },
+    "Junta": {
+      "common": {
+        "headline": 9
+      },
+      "source": "twilight_cards.lua",
+      "usa": {},
+      "ussr": {}
+    },
+    "Kitchen Debates": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 7
+      },
+      "ussr": {
+        "resolve_opponent_event_last": true
+      }
+    },
+    "Korean War": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {},
+      "ussr": {
+        "headline": 6
+      }
+    },
+    "Kremlin Flu": {
+      "common": {},
+      "source": "twilight_promos.lua",
+      "usa": {
+        "headline": 8
+      },
+      "ussr": {
+        "defcon_ops": true,
+        "resolve_opponent_event_first": true
+      }
+    },
+    "Latin American Death Squads": {
+      "common": {
+        "headline": 3,
+        "play_event_before_action_round": 1
+      },
+      "source": "twilight_cards.lua",
+      "usa": {},
+      "ussr": {}
+    },
+    "Latin American Debt Crisis": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "resolve_opponent_event_first": true
+      },
+      "ussr": {
+        "headline": 7
+      }
+    },
+    "Liberation Theology": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "resolve_opponent_event_first": true
+      },
+      "ussr": {
+        "headline": 9
+      }
+    },
+    "Lone Gunman": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "defcon_ops": true,
+        "resolve_opponent_event_first": true
+      },
+      "ussr": {
+        "headline": 7
+      }
+    },
+    "Marine Barracks Bombing": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "resolve_opponent_event_first": true
+      },
+      "ussr": {
+        "headline": 6
+      }
+    },
+    "Marshall Plan": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 9
+      },
+      "ussr": {
+        "resolve_opponent_event_last": true
+      }
+    },
+    "Missile Envy": {
+      "common": {
+        "defcon_draw": true,
+        "headline": 8
+      },
+      "source": "twilight_cards.lua",
+      "usa": {},
+      "ussr": {}
+    },
+    "Mobutu Sese Seko": {
+      "common": {},
+      "source": "twilight_promos.lua",
+      "usa": {
+        "headline": 8
+      },
+      "ussr": {
+        "resolve_opponent_event_first": true
+      }
+    },
+    "Muslim Revolution": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "resolve_opponent_event_first": true
+      },
+      "ussr": {
+        "headline": 8
+      }
+    },
+    "NATO": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 2
+      },
+      "ussr": {
+        "resolve_opponent_event_last": true
+      }
+    },
+    "NORAD": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 6
+      },
+      "ussr": {
+        "resolve_opponent_event_last": true
+      }
+    },
+    "Nasser": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {},
+      "ussr": {
+        "headline": 4
+      }
+    },
+    "Nationalist China": {
+      "common": {},
+      "source": "twilight_turnzero.lua",
+      "usa": {
+        "headline": 9
+      },
+      "ussr": {
+        "resolve_opponent_event_first": true
+      }
+    },
+    "Nixon Plays The China Card": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 6
+      },
+      "ussr": {
+        "resolve_opponent_event_last": true
+      }
+    },
+    "Non-Aligned Movement": {
+      "common": {
+        "headline": 3
+      },
+      "source": "twilight_promos.lua",
+      "usa": {},
+      "ussr": {}
+    },
+    "North Sea Oil": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 5
+      },
+      "ussr": {
+        "resolve_opponent_event_last": true
+      }
+    },
+    "Nuclear Subs": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 8,
+        "play_event_before_action_round": 2
+      },
+      "ussr": {
+        "play_after_action_round": 5,
+        "resolve_opponent_event_last": true
+      }
+    },
+    "Nuclear Test Ban": {
+      "common": {
+        "headline": 3
+      },
+      "source": "twilight_cards.lua",
+      "usa": {},
+      "ussr": {}
+    },
+    "OAS Founded": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 8
+      },
+      "ussr": {
+        "resolve_opponent_event_first": true
+      }
+    },
+    "OPEC": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "resolve_opponent_event_last": true
+      },
+      "ussr": {
+        "headline": 6
+      }
+    },
+    "Olympic Games": {
+      "common": {
+        "defcon_event": true,
+        "headline": 5
+      },
+      "source": "twilight_cards.lua",
+      "usa": {},
+      "ussr": {}
+    },
+    "One Small Step...": {
+      "common": {
+        "headline": 5
+      },
+      "source": "twilight_cards.lua",
+      "usa": {},
+      "ussr": {}
+    },
+    "Ortega Elected in Nicaragua": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "defcon_ops": true,
+        "resolve_opponent_event_first": true
+      },
+      "ussr": {
+        "headline": 5
+      }
+    },
+    "Our Man In Tehran": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 4
+      },
+      "ussr": {
+        "do_not_predict_headline": true,
+        "resolve_opponent_event_first": true
+      }
+    },
+    "Panama Canal Returned": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 6
+      },
+      "ussr": {
+        "resolve_opponent_event_first": true
+      }
+    },
+    "Pershing II Deployed": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "resolve_opponent_event_last": true
+      },
+      "ussr": {
+        "headline": 8
+      }
+    },
+    "Portuguese Empire Crumbles": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "resolve_opponent_event_first": true
+      },
+      "ussr": {
+        "headline": 6
+      }
+    },
+    "Puppet Governments": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 8
+      },
+      "ussr": {
+        "resolve_opponent_event_first": true
+      }
+    },
+    "Quagmire": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "resolve_opponent_event_last": true
+      },
+      "ussr": {
+        "headline": 5
+      }
+    },
+    "Reagan Bombs Libya": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 4
+      },
+      "ussr": {
+        "resolve_opponent_event_last": true
+      }
+    },
+    "Red Scare/Purge": {
+      "common": {
+        "headline": 9,
+        "play_event_before_action_round": 1
+      },
+      "source": "twilight_cards.lua",
+      "usa": {},
+      "ussr": {}
+    },
+    "Romanian Abdication": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "resolve_opponent_event_first": true
+      },
+      "ussr": {
+        "headline": 4
+      }
+    },
+    "Sadat Expels Soviets": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 6
+      },
+      "ussr": {
+        "resolve_opponent_event_first": true
+      }
+    },
+    "Salt Negotiations": {
+      "common": {
+        "headline": 6
+      },
+      "source": "twilight_cards.lua",
+      "usa": {},
+      "ussr": {}
+    },
+    "Shuttle Diplomacy": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 5
+      },
+      "ussr": {
+        "resolve_opponent_event_last": true
+      }
+    },
+    "Socialist Governments": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "resolve_opponent_event_first": true
+      },
+      "ussr": {
+        "headline": 8
+      }
+    },
+    "Solidarity": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 6
+      },
+      "ussr": {
+        "resolve_opponent_event_first": true
+      }
+    },
+    "South African Unrest": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "resolve_opponent_event_first": true
+      },
+      "ussr": {
+        "headline": 6
+      }
+    },
+    "Soviets Shoot Down KAL-007": {
+      "common": {
+        "defcon_drop": true
+      },
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 10
+      },
+      "ussr": {
+        "resolve_opponent_event_first": true
+      }
+    },
+    "Special Relationship": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 6
+      },
+      "ussr": {
+        "resolve_opponent_event_first": true
+      }
+    },
+    "Stanislav Petrov": {
+      "common": {},
+      "source": "twilight_promos.lua",
+      "usa": {},
+      "ussr": {}
+    },
+    "Star Wars": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 8
+      },
+      "ussr": {
+        "defcon_discard": true,
+        "resolve_opponent_event_first": true
+      }
+    },
+    "Suez Crisis": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "resolve_opponent_event_first": true
+      },
+      "ussr": {
+        "headline": 10
+      }
+    },
+    "Summit": {
+      "common": {
+        "defcon_event": true,
+        "headline": 6
+      },
+      "source": "twilight_cards.lua",
+      "usa": {},
+      "ussr": {}
+    },
+    "Tear Down This Wall": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 9
+      },
+      "ussr": {
+        "defcon_ops": true,
+        "do_not_predict_headline": true,
+        "resolve_opponent_event_first": true
+      }
+    },
+    "Terrorism": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {},
+      "ussr": {
+        "headline": 7
+      }
+    },
+    "The Cambridge Five": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "resolve_opponent_event_first": true
+      },
+      "ussr": {
+        "headline": 7
+      }
+    },
+    "The China Card": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {},
+      "ussr": {}
+    },
+    "The Iron Lady": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 6
+      },
+      "ussr": {
+        "resolve_opponent_event_last": true
+      }
+    },
+    "The Reformer": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "resolve_opponent_event_first": true
+      },
+      "ussr": {
+        "headline": 9
+      }
+    },
+    "The Voice Of America": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 10
+      },
+      "ussr": {
+        "do_not_predict_headline": true,
+        "resolve_opponent_event_first": true
+      }
+    },
+    "Truman Doctrine": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 5
+      },
+      "ussr": {
+        "resolve_opponent_event_last": true
+      }
+    },
+    "U2 Incident": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "resolve_opponent_event_last": true
+      },
+      "ussr": {
+        "headline": 5
+      }
+    },
+    "UN Intervention": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {},
+      "ussr": {}
+    },
+    "US/Japan Mutual Defense Pact": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 1
+      },
+      "ussr": {
+        "resolve_opponent_event_last": true
+      }
+    },
+    "Ussuri River Skirmish": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "headline": 9
+      },
+      "ussr": {
+        "resolve_opponent_event_first": true
+      }
+    },
+    "Vietnam Revolts": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "play_after_action_round": 5,
+        "resolve_opponent_event_last": true
+      },
+      "ussr": {
+        "headline": 5,
+        "play_event_before_action_round": 2
+      }
+    },
+    "Wargames": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {},
+      "ussr": {}
+    },
+    "Warsaw Pact Formed": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "resolve_opponent_event_first": true
+      },
+      "ussr": {
+        "headline": 8
+      }
+    },
+    "We Will Bury You": {
+      "common": {
+        "defcon_drop": true
+      },
+      "source": "twilight_cards.lua",
+      "usa": {
+        "resolve_opponent_event_last": true
+      },
+      "ussr": {
+        "headline": 6
+      }
+    },
+    "Who Lost China": {
+      "common": {},
+      "source": "twilight_promos.lua",
+      "usa": {
+        "resolve_opponent_event_first": true
+      },
+      "ussr": {
+        "headline": 1
+      }
+    },
+    "Willy Brandt": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "resolve_opponent_event_first": true
+      },
+      "ussr": {
+        "headline": 5
+      }
+    },
+    "Yuri and Samantha": {
+      "common": {},
+      "source": "twilight_cards.lua",
+      "usa": {
+        "resolve_opponent_event_last": true
+      },
+      "ussr": {
+        "headline": 4
+      }
+    }
+  },
+  "schema": 1
+}

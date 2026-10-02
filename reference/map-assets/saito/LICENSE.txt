@@ -1,0 +1,31 @@
+Twilight Struggle Saito module asset notice
+===========================================
+
+The files in this directory are owned by GMT Games and/or the original game
+artists. The board is supplied from the open-source Saito Twilight Struggle
+module and is not covered by the module code's MIT license.
+
+GMT's module conditions, as reproduced by Saito, require:
+
+1. At least one participant in a game must own a copy of Twilight Struggle.
+2. The material is for personal, non-commercial use. Other use requires
+   express permission from GMT Games.
+
+Authoritative notices and source:
+
+- GMT electronically assisted game module terms:
+  https://www.gmtgames.com/t-GMTVASSAL.aspx
+- Saito module license notice (pinned source revision):
+  https://raw.githubusercontent.com/SaitoTech/saito-lite-rust/8781f1d71964487fbc507fac4b423351f4aaa0b6/mods/twilight/license/LICENSE.txt
+- Board asset:
+  https://raw.githubusercontent.com/SaitoTech/saito-lite-rust/master/mods/twilight/web/img/TS%20Map-11.jpg
+
+Local board verification:
+
+- File: TS Map-11.jpg
+- Dimensions: 5100 x 3300
+- Bytes: 1,619,682
+- SHA-256: 8f21635165f354214fa0b7329b3f3e9f2c2769be76ba2dafd192252591f53217
+
+This repository's browser frontend is deliberately served as a private,
+SSH-forwarded development service and is not configured for public publishing.
